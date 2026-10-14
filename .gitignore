@@ -1,0 +1,39 @@
+# Секреты
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+
+# Данные (пишутся на диске /data при работе)
+data/
+logs/
+reports/
+*.db
+*.sqlite
+*.sqlite3
+
+# Отчёты
+*.csv
+*.log
+*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
